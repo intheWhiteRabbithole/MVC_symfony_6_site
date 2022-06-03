@@ -1,3 +1,214 @@
-body {
-    background-color: lightgray;
+
+/*@font-face {
+    font-family:'patrick_hand';
+    src: url(police/PatrickHand-Regular.ttf)format("truetype");
+}*/
+.btn{
+    background: #011c37;
+    color: #15DEA5;
+    font-size: 3rem;
+    cursor: pointer;
+    padding: 1.85rem 3rem;
+    border-radius: 10rem;
+    transform: scale(1);
 }
+.btn:hover {
+    transform: scale(1.15);
+}
+
+/*@font-face {
+    font-family:'patrick_hand';
+    src: url(police/PatrickHand-Regular.ttf)format("truetype");
+}*/
+#format{
+    padding: 0;
+    margin: 0;
+}
+#myheader{
+
+    background-color: #F2F2F2;
+    text-align: center;
+    padding: 10px;
+    opacity: 0.9;
+}
+.container-second{
+    font-size: 2rem;
+}
+#img-logo{
+    width: 50%;
+    margin-bottom: 15px;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial,sans-serif;
+    background-image: url("/home/alexd/PhpstormProjects/symfony_blog_application/my_project/images/page-1.jpeg");
+    background-position: center;
+    height:100vh;
+    background-size: cover;
+    text-align: center;
+}
+body p{
+    font-family: 'patrick_hand',Arial,sans-serif;
+    font-size: 1.2rem;
+}
+#topbar {
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+}
+#topbar > li{
+    list-style-type: none;
+    margin-top:15px;
+    display: flex;
+    flex-wrap: wrap;
+}
+#topbar > li a {
+    color:#000000;
+    padding: 10px 10px 10px 10px;
+    margin-bottom: 20px;
+}
+#topbar  li a:hover {
+    color:#524A4E;
+    border: solid 2px black;
+    transition: all 0.3s ease-in-out;
+    background-color:#FFFFFF;
+    border-radius: 10px;
+}
+
+/*#banniere_image {
+    background: url(images/coffee.jpg) repeat-x ;
+    height: 600px;
+    width: 100%;
+    background-size: cover;
+    position:relative;
+}*/
+#banniere_description{
+    background-color: rgba(24,24,24,0.8);
+    position:absolute;
+    height: 60px;
+    width: 100%;
+    bottom: 0;
+    text-align: center;
+    color:white;
+}
+.img-banniere{
+    height: 900px;
+    width: 100%;
+}
+#section_grid{
+    display: grid;
+    grid-template-rows: 50% 50%;
+    grid-template-columns: 50% 50% ;
+    background-color: white;
+    grid-gap: 10px;
+}
+#section_grid p{
+    margin:10px;
+}
+#section_grid h1{
+    margin:10px;
+}
+.child_grid1{
+    grid-row-start: 1 ;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    background-color: cadetblue;
+    border:groove 2px #008;
+    border-radius: 10px;
+}
+.child_grid2{
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 0;
+    grid-column-end: 2;
+    background-color: cadetblue;
+    border:outset 2px #008;
+    border-radius: 10px;
+    box-shadow: 6px 6px 6px black;
+}
+.child_grid3 {
+    border-radius: 10px;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    background-color: cadetblue;
+    border: outset 2px #008;
+    box-shadow: 6px 6px 6px black;
+}
+
+#contact{
+    margin-top: 100px;
+    text-align: center;
+    border: solid black;
+    background-color: lightyellow;
+    border-radius: 20px;
+}
+#contact > h1 {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    color: #361500;
+    background-color: chocolate;
+    margin: auto;
+}
+#contact > h3 {
+    margin-top: 50px;
+}
+#button_contact{
+    padding: 16px 32px;
+    background: rgb(2,0,36);
+    background: linear-gradient(306deg, rgba(2,0,36,1) 0%, rgba(25,107,102,1) 0%, rgba(0,212,255,1) 100%);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: white;
+    font-size: 1rem;
+    border-radius: 20px;
+}
+footer{
+    margin-top: 100px;
+    padding-top: 25px;
+    background-color: #F2F2F2;
+    display: flex;
+    opacity: 0.7;
+}
+footer p{
+    margin: 20px;
+}
+footer h2{
+    margin-bottom: 30px;
+}
+#mes_adresses{
+    width: 33%;
+    text-align: center;
+}
+#mon_compte{
+    width: 33%;
+    text-align: center;
+    display: block;
+}
+#mes_adresses li{
+    list-style-type: none;
+    position: relative;
+    right: 20px;
+}
+#mon_contenu{
+    width: 33%;
+    text-align: center;
+    display: block;
+}
+.image_footer{
+    width: 25%;
+    display: inline-flex;
+}
+#github_logo{
+    width: 15%;
+}
+
+
+/*# sourceMappingURL=style.css.map */
